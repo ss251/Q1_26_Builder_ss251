@@ -12,7 +12,7 @@ import { loadKeypairSignerFromFile } from "gill/node";
 import type { Address, KeyPairSigner, IInstruction } from "gill";
 
 const PROGRAM_ID = address(
-  "CFpbmtKWMNBf1W9B9VQTShPfjQubCuAeUMHCLLfgxe7y"
+  "795ui77wZyU8cTgxHntt83v9aiAfvVvyBws8xXyhT17S"
 );
 const SYSTEM_PROGRAM = address("11111111111111111111111111111111");
 

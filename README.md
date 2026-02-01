@@ -50,30 +50,61 @@ Monorepo for tracking progress
 </details>
 
 <details>
-<summary><strong>Week 2-3: Anchor Programs</strong></summary>
+<summary><strong>Week 2: Vault, Escrow, NFT Staking</strong></summary>
 
 ### Vault
 
 | Item | Value |
 |------|-------|
-| Program | `anchor-vault-q1-26` |
+| Program ID | [`795ui77wZyU8cTgxHntt83v9aiAfvVvyBws8xXyhT17S`](https://explorer.solana.com/address/795ui77wZyU8cTgxHntt83v9aiAfvVvyBws8xXyhT17S?cluster=devnet) |
 | Instructions | `initialize`, `deposit`, `withdraw`, `close` |
 | Tests | 4/4 passing (gill + surfpool) |
+
+#### Transactions
+
+| Action | Transaction |
+|--------|-------------|
+| Deploy | [`5BbByHLXj38yrbDATgL3Bkf9NPJ8RuKjEtJH1KHJpnyztZM1BbpnNp3oZtTFb4RY2haMDaBS5pWWVpqFEeW12u47`](https://explorer.solana.com/tx/5BbByHLXj38yrbDATgL3Bkf9NPJ8RuKjEtJH1KHJpnyztZM1BbpnNp3oZtTFb4RY2haMDaBS5pWWVpqFEeW12u47?cluster=devnet) |
+| Initialize | [`358U5YHAjfABC9MTmMncEod9M4RKNiDJWgnUQhA6Ws2y93svC4KX1dv7QFQXGRPXwsNWx3tRNJM6JvKfhpSDWZuS`](https://explorer.solana.com/tx/358U5YHAjfABC9MTmMncEod9M4RKNiDJWgnUQhA6Ws2y93svC4KX1dv7QFQXGRPXwsNWx3tRNJM6JvKfhpSDWZuS?cluster=devnet) |
+| Deposit | [`4c5ss1NndDwHa23UHFttuvnzB174xyxprmWTGYiCcSUfBA6a2dv8VuTbxmRFkosvxzaLYgTkkMhH2dxvd5YPffzJ`](https://explorer.solana.com/tx/4c5ss1NndDwHa23UHFttuvnzB174xyxprmWTGYiCcSUfBA6a2dv8VuTbxmRFkosvxzaLYgTkkMhH2dxvd5YPffzJ?cluster=devnet) |
+| Withdraw | [`2FbEi7nHNJZABzpjUrKW6RqnotemCjP8bp157xaoNH3g37M4WwCYHTvm1Rz5RpvTGZxdAxBjnsey1gvUuwfcdAp7`](https://explorer.solana.com/tx/2FbEi7nHNJZABzpjUrKW6RqnotemCjP8bp157xaoNH3g37M4WwCYHTvm1Rz5RpvTGZxdAxBjnsey1gvUuwfcdAp7?cluster=devnet) |
+| Close | [`5JYTF3dDHkjemyyhX8UhPVsZoWqY9VK4NuaXJo1EnCrjkga78ARpPWYhmHvWLVRc9zp2qA2arpeDc7UiLme25Eyo`](https://explorer.solana.com/tx/5JYTF3dDHkjemyyhX8UhPVsZoWqY9VK4NuaXJo1EnCrjkga78ARpPWYhmHvWLVRc9zp2qA2arpeDc7UiLme25Eyo?cluster=devnet) |
+
+---
 
 ### Escrow
 
 | Item | Value |
 |------|-------|
-| Program | `anchor-escrow-q1-26` |
+| Program ID | [`677U8Q9nAyas6JaKkercgVifkcwpuZrP6RUimosfKaHZ`](https://explorer.solana.com/address/677U8Q9nAyas6JaKkercgVifkcwpuZrP6RUimosfKaHZ?cluster=devnet) |
 | Instructions | `make`, `take`, `refund` |
 | Tests | 4/4 passing (gill + surfpool) |
+
+#### Transactions
+
+| Action | Transaction |
+|--------|-------------|
+| Deploy | [`4sF8Fjx9kMQpwgW3v5JawKe94g4bqgoCCpiEBpLZ1xA82nmyBESn4TCTxLUfWQU74P9bbj6U2wPweshNJpXkYFGT`](https://explorer.solana.com/tx/4sF8Fjx9kMQpwgW3v5JawKe94g4bqgoCCpiEBpLZ1xA82nmyBESn4TCTxLUfWQU74P9bbj6U2wPweshNJpXkYFGT?cluster=devnet) |
+| Make | [`uai9ABd9Zm1dwYVxj35JYfGwgWqibtxQSc23chU3eJaQVn9HwjqGrDrs87wXEjsqXb82DdCFXmQQUns8kwNcRT1`](https://explorer.solana.com/tx/uai9ABd9Zm1dwYVxj35JYfGwgWqibtxQSc23chU3eJaQVn9HwjqGrDrs87wXEjsqXb82DdCFXmQQUns8kwNcRT1?cluster=devnet) |
+| Take | [`3rNVbHowQcY5mStx3eAhHQdqPJkbp12hZFEjTFPyzwC3Zy9R29Tq47iNQHbVmM37XSYSmo45hdTH8PTdZAdBY8fx`](https://explorer.solana.com/tx/3rNVbHowQcY5mStx3eAhHQdqPJkbp12hZFEjTFPyzwC3Zy9R29Tq47iNQHbVmM37XSYSmo45hdTH8PTdZAdBY8fx?cluster=devnet) |
+
+---
 
 ### NFT Staking
 
 | Item | Value |
 |------|-------|
-| Program | `nft-staking-q1-26` |
+| Program ID | [`HimF6bUv7jgEV8m4XKZL5JHpgYQnYpoAPr3F6kdNXJ5V`](https://explorer.solana.com/address/HimF6bUv7jgEV8m4XKZL5JHpgYQnYpoAPr3F6kdNXJ5V?cluster=devnet) |
 | Instructions | `init_config`, `init_user`, `stake`, `unstake` |
 | Tests | 4/4 passing (gill + surfpool) |
+
+#### Transactions
+
+| Action | Transaction |
+|--------|-------------|
+| Deploy | [`2onRY3WDc5DmFRXWcoQAj6MJsp3GvuQvbyQu76SRUszH4fnVq9YvB1DGh1eCiNNU9VAjzYdLhzNY9o577E7LaMNT`](https://explorer.solana.com/tx/2onRY3WDc5DmFRXWcoQAj6MJsp3GvuQvbyQu76SRUszH4fnVq9YvB1DGh1eCiNNU9VAjzYdLhzNY9o577E7LaMNT?cluster=devnet) |
+| Init Config | [`4DKUBw9HtFM2CpyqFkU9j9RyYncrUABJFZPKTyGEPx5PsGXHmp1syYcGDvUpu1tWi5zvayKRGCbv2ivUfwdyjepT`](https://explorer.solana.com/tx/4DKUBw9HtFM2CpyqFkU9j9RyYncrUABJFZPKTyGEPx5PsGXHmp1syYcGDvUpu1tWi5zvayKRGCbv2ivUfwdyjepT?cluster=devnet) |
+| Init User | [`XqzmHKEPbyzSGxS6BkFD15hyTHfKQaRzRji1ufdFWnMshmYrnjgE3f1dtwgEyhLjJm8TNvFosBTWKGx9HXeEw6u`](https://explorer.solana.com/tx/XqzmHKEPbyzSGxS6BkFD15hyTHfKQaRzRji1ufdFWnMshmYrnjgE3f1dtwgEyhLjJm8TNvFosBTWKGx9HXeEw6u?cluster=devnet) |
+| Stake | [`ESMR6obwEUXYbiENaw1Eub8gD3ThHnf1TMvrEty9aM8WJ8H4entDjoNbXwz9eBfGmttUSMjz7hoFcTEqtg4xbdr`](https://explorer.solana.com/tx/ESMR6obwEUXYbiENaw1Eub8gD3ThHnf1TMvrEty9aM8WJ8H4entDjoNbXwz9eBfGmttUSMjz7hoFcTEqtg4xbdr?cluster=devnet) |
 
 </details>

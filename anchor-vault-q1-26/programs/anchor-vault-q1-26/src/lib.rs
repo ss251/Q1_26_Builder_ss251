@@ -3,7 +3,7 @@ use anchor_lang::prelude::*;
 mod instructions;
 use instructions::*;
 
-declare_id!("CFpbmtKWMNBf1W9B9VQTShPfjQubCuAeUMHCLLfgxe7y");
+declare_id!("795ui77wZyU8cTgxHntt83v9aiAfvVvyBws8xXyhT17S");
 
 #[program]
 pub mod anchor_vault_q1_26 {
