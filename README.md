@@ -5,6 +5,9 @@ Monorepo for tracking progress
 ## Projects
 
 - [solana-starter](./solana-starter) - Week 1 exercises: SPL tokens and NFTs
+- [anchor-vault-q1-26](./anchor-vault-q1-26) - SOL vault program (deposit, withdraw, close)
+- [anchor-escrow-q1-26](./anchor-escrow-q1-26) - Token escrow program (make, take, refund)
+- [nft-staking-q1-26](./nft-staking-q1-26) - NFT staking program (delegate-based, points rewards)
 
 ---
 
@@ -43,5 +46,34 @@ Monorepo for tracking progress
 | Action | Transaction |
 |--------|-------------|
 | Mint NFT | [`5G14Ro4qBhM6CuniyNCgwv7pVfdUuRcLmJfbeC4bms6KawFRJjSyueSuN6XPgBa7tSZ2aqSBcBxKgvKU2w5JBBix`](https://explorer.solana.com/tx/5G14Ro4qBhM6CuniyNCgwv7pVfdUuRcLmJfbeC4bms6KawFRJjSyueSuN6XPgBa7tSZ2aqSBcBxKgvKU2w5JBBix?cluster=devnet) |
+
+</details>
+
+<details>
+<summary><strong>Week 2-3: Anchor Programs</strong></summary>
+
+### Vault
+
+| Item | Value |
+|------|-------|
+| Program | `anchor-vault-q1-26` |
+| Instructions | `initialize`, `deposit`, `withdraw`, `close` |
+| Tests | 4/4 passing (gill + surfpool) |
+
+### Escrow
+
+| Item | Value |
+|------|-------|
+| Program | `anchor-escrow-q1-26` |
+| Instructions | `make`, `take`, `refund` |
+| Tests | 4/4 passing (gill + surfpool) |
+
+### NFT Staking
+
+| Item | Value |
+|------|-------|
+| Program | `nft-staking-q1-26` |
+| Instructions | `init_config`, `init_user`, `stake`, `unstake` |
+| Tests | 4/4 passing (gill + surfpool) |
 
 </details>
